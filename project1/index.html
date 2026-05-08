@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon UI - Assignment</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="main">
+
+    <!-- MENU BUTTON — position: absolute -->
+    <button class="menu-btn">
+      <i class="ri-menu-line"></i>
+    </button>
+
+    <!-- THEME BUTTON — position: absolute -->
+    <button class="theme-btn">
+      <i class="ri-sun-line"></i>
+    </button>
+
+    <!-- LOGO -->
+    <div class="logo-wrap">
+      <h1 class="logo">Pokémon</h1>
+    </div>
+
+    <!-- TOOLBAR -->
+    <div class="toolbar">
+      <div class="search-box">
+        <i class="ri-search-line search-icon"></i>
+        <input type="text" placeholder="Search for a Pokémon...">
+      </div>
+
+      <button class="filter-btn">
+        Filter by types (1)
+        <i class="ri-arrow-down-s-line"></i>
+      </button>
+
+      <button class="sort-btn">
+        <i class="ri-sort-desc"></i>
+      </button>
+    </div>
+
+    <!-- CARDS -->
+    <div class="cards">
+
+      <!-- CARD 1 -->
+      <div class="card grass">
+        <span class="card-number">#0908</span>
+        <button class="heart-btn"><i class="ri-heart-line"></i></button>
+        <div class="card-img-wrap">
+          <img src="assets/images/bulbasaur.png" alt="Bulbasaur">
+        </div>
+        <h2 class="card-name">Bulbasaur</h2>
+        <div class="card-footer">
+          <span class="type-tag grass">🌿 GRASS</span>
+          <button class="arrow-btn"><i class="ri-arrow-right-line"></i></button>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="card dark">
+        <span class="card-number">#0624</span>
+        <button class="heart-btn"><i class="ri-heart-line"></i></button>
+        <div class="card-img-wrap">
+          <img src="assets/images/pikachu.png" alt="Pikachu">
+        </div>
+        <h2 class="card-name">Pikachu</h2>
+        <div class="card-footer">
+          <span class="type-tag dark">⚙ DARK / STEEL</span>
+          <button class="arrow-btn"><i class="ri-arrow-right-line"></i></button>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card fire">
+        <span class="card-number">#0229</span>
+        <button class="heart-btn"><i class="ri-heart-line"></i></button>
+        <div class="card-img-wrap">
+          <img src="assets/images/charmander.png" alt="Charmander">
+        </div>
+        <h2 class="card-name">Charmander</h2>
+        <div class="card-footer">
+          <span class="type-tag fire">🔥 DARK / FIRE</span>
+          <button class="arrow-btn"><i class="ri-arrow-right-line"></i></button>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="card water">
+        <span class="card-number">#0686</span>
+        <button class="heart-btn"><i class="ri-heart-line"></i></button>
+        <div class="card-img-wrap">
+          <img src="assets/images/munchlax.png" alt="Munchlax">
+        </div>
+        <h2 class="card-name">Munchlax</h2>
+        <div class="card-footer">
+          <span class="type-tag water">💧 DARK / PSYCHIC</span>
+          <button class="arrow-btn"><i class="ri-arrow-right-line"></i></button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FEATURES -->
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon blue">
+          <i class="ri-compass-3-line"></i>
+        </div>
+        <div class="feature-text">
+          <h4>Explore</h4>
+          <p>Discover all your favorite Pokémon</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon green">
+          <i class="ri-filter-3-line"></i>
+        </div>
+        <div class="feature-text">
+          <h4>Filter</h4>
+          <p>Find Pokémon by types and abilities</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon yellow">
+          <i class="ri-bookmark-line"></i>
+        </div>
+        <div class="feature-text">
+          <h4>Collection</h4>
+          <p>Save and manage your collection</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon purple">
+          <i class="ri-bar-chart-line"></i>
+        </div>
+        <div class="feature-text">
+          <h4>Stats</h4>
+          <p>View stats and learn about Pokémon</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <i class="ri-checkbox-blank-circle-line"></i>
+      <p>© 2024 Pokémon. All rights reserved.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
