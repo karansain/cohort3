@@ -88,9 +88,9 @@ const Footer = () => {
             </h3>
 
             <div className="space-y-3 text-gray-400">
-              <p>📍 Chattogram, Bangladesh</p>
+              <p>📍 Jaipur Rajasthan</p>
               <p>📧 support@skymart.com</p>
-              <p>📞 +880 1234-567890</p>
+              <p>📞 +91 1234-567890</p>
             </div>
           </div>
 
@@ -98,7 +98,7 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="border-t border-gray-800 mt-4 pt-6 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} SkyMart. All Rights Reserved. Created by Syed Risat.
+          © {new Date().getFullYear()} SkyMart. All Rights Reserved. Created by karan sain.
         </div>
 
       </div>

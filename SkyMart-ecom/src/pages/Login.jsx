@@ -158,8 +158,8 @@ const Login = () => {
               className="h-12 w-12 rounded-2xl object-cover"
             />
             <div>
-              <p className="font-semibold">Syed Risat</p>
-              <p className="text-sm text-white/65">@sayed_risat</p>
+              <p className="font-semibold">karan sain</p>
+              <p className="text-sm text-white/65">@karan_sain</p>
               <p className="mt-3 text-sm leading-6 text-white/90">
                 "All function and logic writed by me, and only ui created by the help of AI. Thank you for visiting 💜"
               </p>
